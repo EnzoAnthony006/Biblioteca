@@ -33,29 +33,17 @@ O sistema simula o funcionamento de uma biblioteca, permitindo o controle comple
 
 ## 🖼 Screenshots do Sistema
 
-| Tela Menu | | Empréstimo |
-|-----------|------------------|------------|
-| ![Tela Menu](images/TelaMenu.png) |  ![Emprestimo](images/Emprestimo.png) |
+| Tela Menu | Empréstimo |
+|-----------|------------|
+| ![Tela Menu](images/TelaMenu.png) | ![Emprestimo](images/Emprestimo.png) |
 
-| Devolução | Relatório | Lista no MySQL |
-|-----------|-----------|----------------|
-| ![Devolucao](images/Devolucao.png) | ![Relatorio](images/Relatorio.png) | ![Lista no MySQL](images/Listanomysql.png) |
+| Relatório |
+|-----------|
+| ![Relatorio](images/Relatorio.png) |
 
 ---
 
-## 🧱 Arquitetura do Projeto
-
-O sistema foi desenvolvido seguindo **boas práticas de engenharia de software**, utilizando separação de responsabilidades:
-
-📦 src
-┣ 📂 Apresentacao → Telas Swing (JFrame, JTable, JButton)
-┣ 📂 Controle → Regras de negócio
-┣ 📂 Modelo → Entidades (Usuario, Livro, Emprestimo)
-┣ 📂 Persistencia → DAO + JDBC
-
-
-
-### 📐 Padrões Utilizados
+## 📐 Padrões Utilizados
 - MVC (Model–View–Controller)  
 - DAO (Data Access Object)  
 - Programação Orientada a Objetos  
@@ -72,40 +60,36 @@ O sistema foi desenvolvido seguindo **boas práticas de engenharia de software**
 
 ---
 
-## 🗄️ Banco de Dados
+## 🏷️ Tecnologias / Badges
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+ 
 
-Principais tabelas:
+ ## ⚙️ Como Executar o Projeto
 
-- `tb_usuario`  
-- `tb_livro`  
-- `tb_emprestimo`  
 
-Relacionamentos feitos via **chaves estrangeiras**, garantindo integridade referencial.
-
----
-
-## ⚙️ Como Executar o Projeto
-
-1. Clone o repositório:
 
 ```bash
-git clone https://github.com/EnzoAnthony006/Biblioteca.git
+1. Clone o repositório: git clone https://github.com/EnzoAnthony006/Biblioteca.git
 
 2. Importe o projeto em uma IDE Java (IntelliJ, Eclipse ou NetBeans)
 
 3. Configure o banco de dados MySQL:
 
-Crie o schema
+Crie o schema biblioteca
 
 Execute os scripts SQL das tabelas
 
 4. Configure a classe Config.java:
+
 public class Config {
     public static final String URL = "jdbc:mysql://localhost:3306/biblioteca";
     public static final String USUARIO = "root";
     public static final String SENHA = "sua_senha";
-}
- 👨‍💻 Autor
+
+```
+## 👨‍💻 Autor
 
 Enzo Anthony
 Estudante de Sistemas de Informação
@@ -113,11 +97,14 @@ Foco em Desenvolvimento Backend (Java) e AWS/Cloud
 
 🔗 GitHub: https://github.com/EnzoAnthony006
 
-⭐ Observações
+---
 
-Projeto acadêmico com foco didático, ideal para demonstrar domínio de Java, JDBC, MySQL e arquitetura de software em portfólio profissional ou processos seletivos.
+🧱 Arquitetura do Projeto
 
+O sistema segue boas práticas de engenharia de software, com separação de responsabilidades:
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+src
+┣ 📂 Apresentacao → Telas Swing (JFrame, JTable, JButton)
+┣ 📂 Controle → Regras de negócio
+┣ 📂 Modelo → Entidades (Usuario, Livro, Emprestimo)
+┣ 📂 Persistencia → DAO + JDBC
