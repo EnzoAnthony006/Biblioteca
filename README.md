@@ -39,7 +39,7 @@ O sistema simula o funcionamento de uma biblioteca, permitindo o controle comple
 
 | Devolução | Relatório | Lista no MySQL |
 |-----------|-----------|----------------|
-| ![Devolucao](images/Devolucao.png) | ![Relatorio](images/Relatorio.png) | ![Lista no MySQL](images/ListaNoMySQL.png) |
+| ![Devolucao](images/Devolucao.png) | ![Relatorio](images/Relatorio.png) | ![Lista no MySQL](images/Listanomysql.png) |
 
 ---
 
