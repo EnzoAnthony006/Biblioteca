@@ -122,7 +122,7 @@ Este projeto permitiu aplicar na prática:
 
 **Enzo Anthony**
 Estudante de Sistemas de Informação
-Foco em Desenvolvimento Backend (Java) e Banco de Dados
+Foco em Desenvolvimento Backend (Java) e AWS/Cloud
 
 🔗 GitHub: [https://github.com/EnzoAnthony006](https://github.com/EnzoAnthony006)
 
