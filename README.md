@@ -33,9 +33,9 @@ O sistema simula o funcionamento de uma biblioteca, permitindo o controle comple
 
 ## 🖼 Screenshots do Sistema
 
-| Tela Menu | Cadastro de Livros | Empréstimo |
+| Tela Menu | | Empréstimo |
 |-----------|------------------|------------|
-| ![Tela Menu](images/TelaMenu.png) | ![Cadastro](images/CadastroDeLivros.png) | ![Emprestimo](images/Emprestimo.png) |
+| ![Tela Menu](images/TelaMenu.png) |  ![Emprestimo](images/Emprestimo.png) |
 
 | Devolução | Relatório | Lista no MySQL |
 |-----------|-----------|----------------|
